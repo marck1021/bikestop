@@ -388,6 +388,7 @@
         }
         nav > ul {
           font-size: 28px;
+          font-family: Roboto;
         }
         #logo {
           width: 12%;
@@ -407,6 +408,7 @@
 
         .box h3 {
           font-size: 28px;
+          font-family: Roboto;
         }
 
         h2 {
