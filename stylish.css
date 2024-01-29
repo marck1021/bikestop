@@ -339,7 +339,6 @@
   
         .container3 p {
           padding-top: 20px;
-          text-align: left;
           font-size: 17px;
           width: 47%;
           text-align: justify;
@@ -440,5 +439,16 @@
         }
         #bikestop {
           margin-left: -20px;
+      }
+        .info {
+        display: block;
+        position: relative;
+      }
+      #store {
+        object-fit: cover;
+        width: 550px;
+        position: absolute;
+        top: 50px;
+        left: 640px;
       }
       }
