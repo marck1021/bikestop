@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+        let counter = 0;
+        function count() {
+           counter = counter + 1 
+           alert("Website is under development. In the meantime, check out this code for a script called Counter that we added on here temporarily. Keep clicking to see the number add up: " + counter);
+      }
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta name="description" content="Kalibo Bikestop Burgers">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- This code is to specify the version of Internet Explorer that should be used to render a webpage -->
+    <title>Kalibo Bikestop Burgers</title>
+    <link rel="stylesheet" href="stylish.css">
+    <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,600,300" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/jpg" href="C:\Users\marck\Downloads\bikestoplogo.jpg">
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="bslogo.png">
+      <nav>
+        <ul>
+          <li><a id="navlink1" href="#home">HOME</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#About">ABOUT</a></li>
+          <li><a onclick="count()" href="#"">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+    <div class="container">
+      <h1><img id="small-logo" src="bs2.png"><br><span id="bikestop"><span id="bike">BIKE</span><span id="stop">STOP</span></span><span id="burgers">Burgers</span></h1>
+      <p class="second">Home of the best char-broiled gourmet burgers, pita sandwiches and more - right in the heart of Kalibo.
+        <br>
+        <br>
+        Bite into the adventure with our Wedges Con Carne, Double Patty Cheeseburger, Tacos and many more including the now infamous Milo Dinosaur Shake</p>
+        <a id="order" href="#menu">See our Menu</a>
+      <div class="main-image">
+      <img id="burger" src="burger-removebg.png" alt="mouth-watering burger with avocado">
+      </div>
+    </div>
+    <br>
+    </section>
+    <section id="menu">
+      <div class="icons">
+      <img id="fork" src="fork.jpg">
+      <h2>Our Menu</h2>
+      <img id="knife" src="knife.jpg">
+      </div>
+      <br>
+      <div class="boxcontainer">
+        <div class="box">
+                <div class="image">
+          <img src="guacamole.png" alt="Image 1">
+                </div>
+                <h3>Guacamole Burger</h3>
+          <p>Succulent patty meets creamy avocado bliss. This juicy burger gets a fresh, zesty upgrade with a dollop of homemade guacamole</p>
+        </div>
+        <div class="box">
+                <div class="image">
+          <img src="wedges.png" alt="Image 2">
+          </div>
+                <h3>Potato Wedges</h3>
+          <p>Golden-fried wedges, fluffy inside, crispy outside. A timeless favorite, ready to dunk in your favorite sauce</p>
+        </div>
+        <div class="box">
+                <div class="image">
+          <img id="double" src="doublepatty.png" alt="Image 3">
+                </div>
+                <h3>Double Patty Burger</h3>
+                <p>Twice the beef, double the joy. Two hefty patties, grilled to juicy perfection, stacked high and dripping with flavor</p>
+        </div>
+        <div class="box">
+                <div class="image">
+          <img src="pitawrap.png" alt="Image 4">
+          </div>
+                <h3>Pita Wrap</h3>
+          <p>Bursting with fresh flavors of tuna or chicken, every wrap starts with warm, fluffy pita bread, ready to hug your delicious ingredients</p>
+        </div>
+        <div class="box">
+                <div class="image">
+          <img src="wedgeconcarne.png" alt="Image 5">
+          </div>
+                <h3>Wedges Con Carne</h3>
+          <p>Crispy wedges golden like sunset hold a fiery heart of chili con carne, all smothered in a molten cheese avalanche dashed with green onions</p>
+        </div>
+        <div class="box">
+                <div class="image">
+          <img src="miloshake.png" alt="Image 6">
+          </div>
+                <h3>Milo Dinosaur Shake</h3>
+          <p>Creamy shake embraces rich Milo powder, swirling into a childhood dream of chocolate malt goodness on your taste buds</p>
+        </div>
+      </div>
+    </section>
+    <section id="About">
+      <div class="container3">
+        <div class="icons">
+          <img id="cyclist" src="cyclist.png">
+          <h2 id="about-us">Our Story</h2>
+          <img id="burgericon" src="burgericon.png">
+        </div>  
+          <div class="info">
+            <img src="aboutpic.jpg" id="store">
+            <p>Born in March 2022, our journey began with a passion for two things: bikes and fantastic food.
+              <br><br>
+              <span id="indent">The brainchild of our avid biker-owner, Bikestop Burgers was initially envisioned as a haven for fellow bike enthusiasts to gather, replenish, and share stories. However, our sizzling burgers and warm atmosphere quickly captivated a broader audience, transcending the biker community.</span><br><br>
+ 
+              <span id="indent">What started as a small venture to cater to the bicycle culture swiftly evolved into a culinary destination for everyone. Families, friends, and food lovers alike have embraced the unique blend of our biker-inspired roots and delectable offerings.</span><br><br>
+              
+              <span id="indent">At Bikestop Burgers, we take pride in crafting burgers that pack a punch – each bite delivering a symphony of flavors. Our commitment to quality extends beyond the kitchen; it's embedded in the very fabric of our establishment. From laughter of friends sharing a moment to families enjoying a meal together, Bikestop Burgers is a place where the spirit of camaraderie thrives.</span><br><br>
+              
+              Whether you're a biker or a family seeking a delicious meal, Bikestop Burgers welcomes you to share in our passion for great food and good times!</p>
+        <br>
+        <br>
+        <br>
+        </div>
+      </div>
+    </section> 
+    </main>
+  </body>
+</html>    
