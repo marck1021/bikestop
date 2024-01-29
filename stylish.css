@@ -6,7 +6,8 @@
   }
         body {
           width: 100%;
-          background-color: #81C5A0;
+          background-color: #81C5A0; /* This is a secondary option */
+          background-color: #343a40; 
           margin: 0;
           padding: 0;
           font-family: cursive, 'Open Sans', Sans-serif;
@@ -46,7 +47,8 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
-          background: linear-gradient(150deg,black,#343a40);
+          background: linear-gradient(150deg,black,#343a40); /* This is a secondary option */
+          background-color:#343a40;
           z-index: 2;
           
         }
@@ -128,7 +130,7 @@
         }
         
         #burgers {
-          color: black; 
+          color: whitesmoke; 
           margin: auto ;
           margin-left: 12px;
           vertical-align: bottom;
@@ -320,7 +322,7 @@
       
         #About h2{
           padding-top: 60px;
-          color: #343a40;
+          color: whitesmoke;
         }
         
         .container3 {
