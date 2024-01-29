@@ -9,7 +9,7 @@
           background-color: #81C5A0;
           margin: 0;
           padding: 0;
-          font-family: 'Open Sans', Sans-serif;
+          font-family: cursive, 'Open Sans', Sans-serif;
           color: rgb(255, 255, 255);
         }
   
@@ -124,7 +124,7 @@
           font-size: 19px;
           text-align: center;
           color: white;
-          
+          font-family: cursive;
         }
         
         #burgers {
