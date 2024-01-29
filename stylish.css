@@ -405,7 +405,7 @@
         #order {
           font-size: 24px;
           font-family: Roboto;
-          margin-left: 100px;
+          margin-left: 150px;
         }
 
         .box h3 {
@@ -419,5 +419,9 @@
 
         #store {
           object-fit: fill;
+        }
+
+        #burgers {
+           font-family: 'Dancing Script';
         }
       }
