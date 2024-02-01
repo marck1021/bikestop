@@ -129,11 +129,10 @@
         #burgers {
           color: whitesmoke; 
           margin: auto ;
-          margin-left: 12px;
+          margin-left: 5px;
           vertical-align: bottom;
-          font-size: 65px;
-          letter-spacing: -1px;
-          transform: rotate(-4deg);
+          font-size: 60px;
+          transform: rotate(-3deg);
 
         }
         
