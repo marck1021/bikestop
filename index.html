@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <script>
+     
         let counter = 0;
+
         function count() {
            counter = counter + 1 
            alert("Website is under development. In the meantime, check out this code for a script called Counter that we added on here temporarily. Keep clicking to see the number add up: " + counter);
       }
+      
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale-1.0">
@@ -102,23 +106,25 @@
       <div class="container3">
         <div class="icons">
           <img id="cyclist" src="cyclist.png">
-          <h2 id="about-us">Our Story</h2>
+          <h2 id="about-us">About Us</h2>
           <img id="burgericon" src="burgericon.png">
         </div>  
           <div class="info">
+          <div class="left-column">
             <img src="aboutpic.jpg" id="store">
-            <p>Born in March 2022, our journey began with a passion for two things: bikes and fantastic food.
+          </div>  
+          <div class="right-column">
+            <p class="hidden">Born in March 2022, our journey began with a passion for two things: bikes and fantastic food.
               <br><br>
-              <span id="indent">The brainchild of our avid biker-owner, Bikestop Burgers was initially envisioned as a haven for fellow bike enthusiasts to gather, replenish, and share stories. However, our sizzling burgers and warm atmosphere quickly captivated a broader audience, transcending the biker community.</span><br><br>
- 
-              <span id="indent">What started as a small venture to cater to the bicycle culture swiftly evolved into a culinary destination for everyone. Families, friends, and food lovers alike have embraced the unique blend of our biker-inspired roots and delectable offerings.</span><br><br>
+              <span id="indent hidden">The brainchild of our avid biker-owner, Bikestop Burgers was initially envisioned as a haven for fellow bike enthusiasts to gather, replenish, and share stories. However, our sizzling burgers and warm atmosphere quickly captivated a broader audience, transcending the biker community.</span><br><br>
               
-              <span id="indent">At Bikestop Burgers, we take pride in crafting burgers that pack a punch – each bite delivering a symphony of flavors. Our commitment to quality extends beyond the kitchen; it's embedded in the very fabric of our establishment. From laughter of friends sharing a moment to families enjoying a meal together, Bikestop Burgers is a place where the spirit of camaraderie thrives.</span><br><br>
+              <span id="indent hidden">What started as a small venture to cater to the bicycle culture swiftly evolved into a culinary destination for everyone. Families, friends, and food lovers alike have embraced the unique blend of our biker-inspired roots and delectable offerings.</span><br><br></p>
+              
+              <p>At Bikestop Burgers, we take pride in crafting burgers that pack a punch – each bite delivering a symphony of flavors. Our commitment to quality extends beyond the kitchen; it's embedded in the very fabric of our establishment. From laughter of friends sharing a moment to families enjoying a meal together, Bikestop Burgers is a place where the spirit of camaraderie thrives.<br><br>
               
               Whether you're a biker or a family seeking a delicious meal, Bikestop Burgers welcomes you to share in our passion for great food and good times!</p>
-        <br>
-        <br>
-        <br>
+              <a href="#About" onclick="count()"><button>Read More</button></a>
+        </div>
         </div>
       </div>
     </section> 
