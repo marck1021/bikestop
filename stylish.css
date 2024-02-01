@@ -129,11 +129,13 @@
         #burgers {
           color: whitesmoke; 
           margin: auto ;
-          margin-left: 5px;
+          margin-left: 12px;
           vertical-align: bottom;
-          font-size: 60px;
-          transform: rotate(-3deg);
-
+          font-size: 65px;
+          font-family: 'Dancing Script', cursive;
+          letter-spacing: -1px;
+          transform: rotate(-4deg);
+          
         }
         
         #bike {
