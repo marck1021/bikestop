@@ -6,8 +6,7 @@
   }
         body {
           width: 100%;
-          background-color: #81C5A0; /* This is a secondary option */
-          background-color: #343a40; 
+          background-color:#343a40;
           margin: 0;
           padding: 0;
           font-family: cursive, 'Open Sans', Sans-serif;
@@ -47,7 +46,6 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
-          linear-gradient(150deg,black,#343a40); /* This is a secondary option */
           background-color:#343a40;
           z-index: 2;
           
@@ -198,8 +196,7 @@
   
         #menu h2 {
           color: black;
-          padding-top: 60px;
-     
+          padding-top: 50px;
         }
       
         .box h3 {
@@ -214,7 +211,7 @@
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           grid-template-rows: repeat(2, 1fr);
-          grid-gap: 20px;
+          grid-gap:10px;
           margin: 20px auto;
           max-width: 1200px;
         }
@@ -314,7 +311,7 @@
         }
       
         #store {
-          width: 45%;
+          width: 80%;
           margin-top: 20px;
           border-radius: 50% 20% / 10% 40%;
           object-fit: cover;
@@ -326,9 +323,8 @@
         }
         
         .container3 {
-          background-color:#81C5A0;
           margin-top: -41px;
-          display: inline;
+          padding-bottom: 35px;
         }
   
         .food {
@@ -338,13 +334,13 @@
         }
   
         .container3 p {
-          padding-top: 20px;
-          font-size: 17px;
-          width: 47%;
+          padding-top: 30px;
+          font-size: 18px;
+          width: 90%;
           text-align: justify;
+          margin-left: 0;
         }
       
-
       #small-logo {
         width: 65px;
         height: 70px;
@@ -360,11 +356,20 @@
 
       .info {
         display: flex;
-        justify-content: center;
-        padding: 30px 10px 30px 30px;
-        gap: 15px;
+        justify-content: space-between;
+        text-align: center;
+        padding: 20px;
       }
 
+      .right-column {
+        width: 60%;
+        text-align: left;
+      }
+
+      .left-column {
+
+        width: 50%;
+      }
       #cyclist {
         width: 75px;
         height: 75px;
@@ -381,6 +386,33 @@
         left: 10px;
       }
 
+      .hidden {
+        display: none;
+      }
+      button {
+        background-color: #EFC33E;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 40px;
+        border-radius: 250px;
+        transition: all 0.3s;
+        font-size: 19px;
+        margin-left: 200px;
+        margin-right: auto;
+        margin-top: 30px;
+        color: #343a40;
+        font-weight: 600; 
+        font-family: cursive;
+      }
+      button:hover {
+        background-color: #ffbe33;
+        color: green;
+        transform: scale(1.10);
+        box-shadow: 0 0 10px green;  
+      }
+
+      /* MEDIA QUERIES SECTION */
+
       @media screen and (max-width: 430px) {
         
         header {
@@ -389,7 +421,6 @@
         }
         nav > ul {
           font-size: 28px;
-          font-family: Roboto;
         }
         #logo {
           width: 12%;
@@ -400,32 +431,19 @@
         
         .second, .container3 p, p {
           font-size: 24px;
-          font-family: Roboto;
         }
 
         #order {
           font-size: 24px;
-          font-family: Roboto;
-          margin-left: 150px;
         }
 
         .box h3 {
           font-size: 28px;
-          font-family: Roboto;
         }
 
         h2 {
           font-size: 60px;
         }
-
-        #store {
-          object-fit: fill;
-        }
-
-        #burgers {
-           font-family: 'Dancing Script';
-        }
-
         .boxcontainer {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -440,15 +458,9 @@
         #bikestop {
           margin-left: -20px;
       }
-        .info {
-        display: block;
-        position: relative;
-      }
+
       #store {
         object-fit: cover;
-        width: 520px;
-        position: absolute;
-        top: 55px;
-        left: 590px;
+        object-position: 93% 0%;
       }
-      }
+    }
