@@ -413,7 +413,7 @@
 
       /* MEDIA QUERIES SECTION */
 
-      @media screen and (max-width: 430px) {
+        @media screen and (max-width: 430px) and (min-width: 375px) { {
         
         header {
           width: 300%;
