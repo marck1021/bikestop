@@ -9,7 +9,7 @@
           background-color:#343a40;
           margin: 0;
           padding: 0;
-          font-family: 'Open Sans', Sans-serif;
+          font-family: cursive, 'Open Sans', Sans-serif;
           color: rgb(255, 255, 255);
         }
   
@@ -124,6 +124,7 @@
           font-size: 19px;
           text-align: center;
           color: white;
+          font-family: cursive;
         }
         
         #burgers {
@@ -279,7 +280,7 @@
           border-radius: 250px;
           transition: all 0.3s;
           font-size: 19px;
-          margin-left: 200px;
+          margin-left: 165px;
           margin-right: auto;
           margin-top: 30px;
           color: #343a40;
@@ -410,10 +411,10 @@
         box-shadow: 0 0 10px green;  
       }
 
-      /* MEDIA QUERIES SECTION */
+      /*  MEDIA QUERIES SECTION MEDIA QUERIES SECTION MEDIA QUERIES SECTION MEDIA QUERIES SECTION MEDIA QUERIES SECTION */
 
-        @media screen and (max-width: 430px) { 
-           
+      @media screen and (max-width: 430px) {
+        
         header {
           width: 300%;
           height: 100%;
@@ -428,10 +429,12 @@
           width: 300%;
         }
         
-        .second, .container3 p {
+        .second, .container3 p, p {
           font-size: 24px;
         }
-
+        .second, .container3 p, p, h3, #order, button{ 
+          font-family: cursive;
+        }
         #order {
           font-size: 24px;
         }
@@ -460,6 +463,9 @@
 
       #store {
         object-fit: cover;
-        object-position: 93% 0%;
+        object-position: 52% 0%;
+        height: 75%;
+        width: 85%;
+        margin-top: 50px;
       }
     }
