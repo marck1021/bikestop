@@ -21,6 +21,7 @@
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,600,300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="icon" type="image/jpg" href="C:\Users\marck\Downloads\bikestoplogo.jpg">
   </head>
   <body>
@@ -38,12 +39,13 @@
     <main>
       <section id="home">
     <div class="container">
-      <h1><img id="small-logo" src="bs2.png"><br><span id="bikestop"><span id="bike">BIKE</span><span id="stop">STOP</span></span><span id="burgers">Burgers</span></h1>
-      <p class="second">Home of the best char-broiled gourmet burgers, pita sandwiches and more - right in the heart of Kalibo.
-        <br>
-        <br>
+      <h1>Bike Stop Burgers</h1>
+      <p class="second">
+        <!--
+        Home of the best char-broiled gourmet burgers, pita sandwiches and more - right in the heart of Kalibo.
+        -->
         Bite into the adventure with our Wedges Con Carne, Double Patty Cheeseburger, Tacos and many more including the now infamous Milo Dinosaur Shake</p>
-        <a id="order" href="#menu">See our Menu</a>
+        <a id="order" href="menu.html">See our Menu</a>
       <div class="main-image">
       <img id="burger" src="burger-removebg.png" alt="mouth-watering burger with avocado">
       </div>
@@ -72,28 +74,28 @@
                 <h3>Potato Wedges</h3>
           <p>Golden-fried wedges, fluffy inside, crispy outside. A timeless favorite, ready to dunk in your favorite sauce</p>
         </div>
-        <div class="box">
+        <div class="box doublepatty">
                 <div class="image">
           <img id="double" src="doublepatty.png" alt="Image 3">
                 </div>
                 <h3>Double Patty Burger</h3>
                 <p>Twice the beef, double the joy. Two hefty patties, grilled to juicy perfection, stacked high and dripping with flavor</p>
         </div>
-        <div class="box">
+        <div class="box hidden">
                 <div class="image">
           <img src="pitawrap.png" alt="Image 4">
           </div>
                 <h3>Pita Wrap</h3>
           <p>Bursting with fresh flavors of tuna or chicken, every wrap starts with warm, fluffy pita bread, ready to hug your delicious ingredients</p>
         </div>
-        <div class="box">
+        <div class="box hidden">
                 <div class="image">
           <img src="wedgeconcarne.png" alt="Image 5">
           </div>
                 <h3>Wedges Con Carne</h3>
           <p>Crispy wedges golden like sunset hold a fiery heart of chili con carne, all smothered in a molten cheese avalanche dashed with green onions</p>
         </div>
-        <div class="box">
+        <div class="box hidden">
                 <div class="image">
           <img src="miloshake.png" alt="Image 6">
           </div>
@@ -101,13 +103,14 @@
           <p>Creamy shake embraces rich Milo powder, swirling into a childhood dream of chocolate malt goodness on your taste buds</p>
         </div>
       </div>
+      <a id="order2" href="menu.html">See more Menu</a>
     </section>
     <section id="About">
       <div class="container3">
         <div class="icons">
-          <img id="cyclist" src="cyclist.png">
+          <img id="cyclist" src="bike2.png">
           <h2 id="about-us">About Us</h2>
-          <img id="burgericon" src="burgericon.png">
+          <img id="burgericon" src="burger-icon.png">
         </div>  
           <div class="info">
           <div class="left-column">
@@ -120,14 +123,157 @@
               
               <span id="indent hidden">What started as a small venture to cater to the bicycle culture swiftly evolved into a culinary destination for everyone. Families, friends, and food lovers alike have embraced the unique blend of our biker-inspired roots and delectable offerings.</span><br><br></p>
               
-              <p>At Bikestop Burgers, we take pride in crafting burgers that pack a punch – each bite delivering a symphony of flavors. Our commitment to quality extends beyond the kitchen; it's embedded in the very fabric of our establishment. From laughter of friends sharing a moment to families enjoying a meal together, Bikestop Burgers is a place where the spirit of camaraderie thrives.<br><br>
+              <p>At Bikestop Burgers, we take pride in crafting burgers that pack a punch – each bite delivering a symphony of flavors. Our commitment to quality extends beyond the kitchen; it's embedded in the very fabric of our establishment.</p>
+             
+              <p>From laughter of friends sharing a moment to families enjoying a meal together, Bikestop Burgers is a place where the spirit of camaraderie thrives.<br><br>
               
               Whether you're a biker or a family seeking a delicious meal, Bikestop Burgers welcomes you to share in our passion for great food and good times!</p>
               <a href="#About" onclick="count()"><button>Read More</button></a>
         </div>
         </div>
       </div>
+    </section>
+    <section id="testimonial-section">
+      <div id="testimonial-icons">
+        <img id="openquote" src="open-quote.png">
+        <h2>Our Reviews</h2>       
+        <img id="closequote" src="close-quote.png">      
+      </div>
+        <br>
+      <div class="testimonial-grid">
+      <div class="testimonial-card">
+          <img src="woman1.png" alt="Customer 1">
+          <p class="testimonial-text">"Best gourmet burgers in town! The vietnamese iced coffee and Milo dino shakes shouldn’t be missed. 😊"</p>
+          <p class="customer-name">Carrie Vergara</p>
+      </div>
+      <div class="testimonial-card">
+          <img src="male1.png" alt="Customer 2">
+          <p class="testimonial-text">"Awesome burgers. Cold Beers & friendly Staff. If you haven't been there yet I highly recommend you do."</p>
+          <p class="customer-name">Mick Sawko</p>
+      </div>
+      <div class="testimonial-card">
+          <img src="woman2.png" alt="Customer 3">
+          <p class="testimonial-text">"The burgers 🍔 taste great! No sauce needed!  Veggies were fresh. The burger patty's really juicy and perfectly cooked. Gourmet burger and pita bread at an affordable price only at Kalibo Bikestop Burgers. When in Kalibo, make sure to stop by! 😊"</p>
+          <p class="customer-name">RM Jane VS</p>
+      </div>
+      <div class="testimonial-card">
+        <img src="male2.jpg" alt="Customer 4">
+        <p class="testimonial-text">"Savory grill burger just the way i want to order. all in all good food i highly recommend."</p>
+        <p class="customer-name">Francis Joseph Garcia</p>
+    </div>
+    </div>
+      <!-- Add more testimonial cards here -->
+    </section>
+
+    <section id="contact-section">
+      <div id="contact-header">
+        <img src="location.png"> 
+        <h2>Contact Us</h2>
+        <img src="location.png">  
+      </div>
+      <br>
+      <div class="contact-grid">
+        
+        <div class="form">
+          <h2>Book a Reservation</h2>
+          <form action="marcfernandez510@gmail.com" method="POST">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Who's the reservation for?" required>
+            
+          <!-- This part can be optional 
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="What's your email address?" required>
+          -->
+
+            <label for="mobile">Phone: </label>
+            <input type="tel" id="mobile" name="phone" placeholder="What's your mobile number?" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" minlength="13" maxlength="13" required>
+            
+            <label for="guests">How many persons? </label>
+            <select id="guests" name="guests" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="more">more</option>
+            </select>
+
+            <label for="date">Date: </label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time: </label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" placeholder="Write your requests here" rows="5" cols="24"></textarea>
+
+            <input id="submit" type="submit" value="Reserve Now">
+          </form>
+        </div>
+     
+        <div class="contact-info">
+          <h3>CALL US</h3>
+          <a href="tel:+09983756339">(0998) 375 6339</a>
+          <br>
+          <br>
+          <br>
+          <h3>LOCATION</h3>
+          <p>826 F Quimpo Ave. Capitol Subdivision</p>
+          <p>Kalibo, Philippines</p>
+          <p>Hours: 12pm - 9pm / Monday - Saturday</p>
+          <br>
+          <h3>WE DELIVER</h3>
+          <p>Add P50 delivery fee within Kalibo area
+          <p><strong>Free</strong> delivery for orders of 10 burgers or more</p>  
+          </p>
+          <a href="tel:+09983756339">(0998 375 6339)</a>
+        </div>
+        
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3906.9765931842708!2d122.36793647364938!3d11.696070241560907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a59d1cc629398f%3A0x2f8992588c55e8ec!2sKalibo%20BIKESTOP%20Burgers!5e0!3m2!1sen!2sph!4v1709035491124!5m2!1sen!2sph" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div> 
     </section> 
     </main>
+        <hr>
+    <footer>
+
+      <div id="footer-grid">
+       
+        <div class="left-footer">
+          <div id="location">
+            <img src="location.png">
+            <p>826 F Quimpo Ave. Capitol Subdivision Kalibo, Philippines</p>        
+          </div>
+
+          <div id="phone">
+            <img id="cp" src="cp.jfif">
+            <a href="tel:+09983756339">(0998 375 6339)</a>
+          </div>    
+        </div>
+        
+        <div class="right-footer">
+          <h3>Bike Stop Burgers</h3>
+          <p>Home of the best char-broiled gourmet burgers, pita sandwiches and more - right in the heart of Kalibo.</p>
+          
+          <div id="social-icons">
+            <a href="https://www.facebook.com/kalibobikestopburgers"><img src="fb.png"></a>
+            <img src="ig.png">
+          </div>
+        </div>
+      
+      </div>
+        <br>
+        <br>
+
+        <p class="copyright">2024 All Rights Reserved</p>
+        <p class="copyright">Designed and developed by Marc Fernandez</p>
+
+    </footer>
   </body>
 </html>    
