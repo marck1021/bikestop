@@ -667,25 +667,23 @@ footer {
   .contact-grid {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    outline: 3px solid cyan;
+    row-gap: 40px;
   }
 
   .form {
     grid-row-start: 1;
     width: 141%;
-    outline: 3px solid yellow;
   }
+
   .contact-info {
     grid-row-start: 2;
     width: 141%;
     padding-top: 100px;
-    outline: 3px solid yellow;
   }
 
   .map {
     grid-row-start: 3;
     width: 100vw;
-    outline: 3px solid yellow;
   }
 
   iframe {
