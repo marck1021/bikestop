@@ -597,7 +597,7 @@ footer {
   }
 
   .menu-card h3 {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
 
@@ -622,6 +622,7 @@ footer {
 
  .right-column p {
     font-family: 'Roboto';
+ }
 
   #about button {
     margin: 50px auto 0 auto;
