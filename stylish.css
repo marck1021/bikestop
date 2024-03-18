@@ -699,7 +699,7 @@ footer {
   }
 
   #submit {
-    color: var(--white);
+    color: var(--bg-color);
   }
 
   .contact-info {
