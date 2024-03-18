@@ -755,6 +755,7 @@ footer {
  
   .copyright p {
     font-family: 'Roboto';
+  }
   
   .copyright p:last-of-type{
     width: 40%;
