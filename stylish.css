@@ -63,8 +63,8 @@ nav {
 }
 
 #logo {
-  width: 95px;
-  zoom: 100%;
+  width: 85px;
+  zoom: 91%;
   object-fit: cover;
   margin-left: 80px;
 }
@@ -80,7 +80,7 @@ nav > ul {
 
 nav > ul > li {
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 16px;
 }
         
 #navlink1 {
@@ -125,7 +125,7 @@ h1 {
   width: 40%;
   margin-left: 50px;
   font-size: 21px;
-  text-align: center;
+  text-align: left;
   color: white;
   font-family: cursive;
   margin-top: -20px;
@@ -176,9 +176,9 @@ h1 {
 .menu-card {          /* MENU-CARD */
   display: grid;
   grid-template-rows: 60% 20% 20%;
-  background-color: var(--white);
-  box-shadow: 0px 0px 12px silver;
-  box-shadow: -2px 2px 4px 3px rgba(0, 0, 0, 0.3);
+  background-color: #f9f9f9;
+  /* box-shadow: 0px 0px 12px silver;
+  box-shadow: -2px 2px 4px 3px rgba(0, 0, 0, 0.3); */
   border-radius: 10px;
   padding-bottom: 30px;
 }
@@ -188,6 +188,21 @@ h1 {
   height: 280px;
   object-fit: contain;
   zoom: 95%; 
+}
+
+.menu-card h3{      /* MENU-CARD HEADER */
+  color: var(--bg-color);
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+      
+.menu-card p {       /* MENU-CARD PHARAGRAPH */
+  text-align: justify;
+  width: 85%;
+  font-size: 16px;
+  margin: 0 auto;
+  color: var(--bg-color);
 }
 
 #guacamole {
@@ -204,20 +219,6 @@ h1 {
 #double {
   width: 100%;
   margin: 0 auto;
-}
-
-.menu-card h3{      /* MENU-CARD HEADER */
-  color: var(--bg-color);
-  text-align: center;
-  font-size: 21px;
-}
-      
-.menu-card p {       /* MENU-CARD PHARAGRAPH */
-  text-align: justify;
-  width: 85%;
-  font-size: 17px;
-  margin: 0 auto;
-  color: var(--bg-color);
 }
 
 /* STYLING FOR ABOUT PAGE */
@@ -281,30 +282,6 @@ h1 {
   margin: 0 auto;
 }
 
-/* 
-        #order:hover {
-          background-color: #ffbe33;
-          color: green;
-          transform: scale(1.10);
-          box-shadow: 0 0 10px green;  
-        }
-    
-        p {
-          text-align: left;
-          margin-left: 0px;
-          padding-left: 0;
-          font-weight: 400;
-          font-size: 15px;
-        }
-
-        button:hover {
-          background-color: #ffbe33;
-          color: cyan;
-          transform: scale(1.10);
-          box-shadow: 0 0 10px #5b666f;  
-        }
-        */
-
 /* STYLING FOR TESTIMONIAL SECTION */
 
 #testimonial {
@@ -345,7 +322,12 @@ h1 {
 .testimonial-card img {
   width: 100px;
 }
-         
+       
+.testimonial-card p:nth-of-type(1) {
+  text-align: left;
+  color: #333;
+}
+
 .testimonial-card p:nth-of-type(2) {
   font-weight: bold;
   color: #333;
@@ -551,10 +533,6 @@ footer {
     display: none;
   }
 
-  * {
-  
-  }
-
 
   /* HOME */
   #home {
@@ -639,23 +617,46 @@ footer {
   .testimonial-grid {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
-    padding: 50px 20px;
+    padding: 0px 20px;
+    row-gap: 10px;
   }
 
   .testimonial-card {
     width: 100%;
     margin: 0 auto;
     grid-column: 1/4;
-    padding-top: 50px;
+    padding-top: 0px;
+    box-shadow: -2px 2px 4px 3px rgba(0, 0, 0, 0);
+    background-color: #f9f9f9;
+
+  }
+
+  .testimonial-card:first-of-type {
+    padding-top: 60px;  
+  }
+
+  .testimonial-card p {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .testimonial-card p:nth-of-type(2){
+    margin-bottom: 0px;
+  }
+
+  .testimonial-card:nth-of-type(3) p:nth-of-type(2){
+    margin-bottom: 70px;
   }
 
   .testimonial-card:nth-of-type(2) {
     grid-row-start: 2;
+    padding-top: 20px;
   }
 
   .testimonial-card:nth-of-type(3) {
     grid-row-start: 3;
     width: 100%;
+    margin-top: -5px;
   }
 
   .testimonial-card:nth-of-type(4) {
@@ -667,23 +668,24 @@ footer {
   .contact-grid {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 40px;
+    row-gap: 70px;
   }
 
   .form {
-    grid-row-start: 1;
+    grid-row-start: 3;
     width: 141%;
   }
 
   .contact-info {
-    grid-row-start: 2;
+    grid-row-start: 1;
     width: 141%;
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   .map {
-    grid-row-start: 3;
+    grid-row-start: 2;
     width: 100vw;
+    margin-top: -150px;
   }
 
   iframe {
@@ -692,44 +694,45 @@ footer {
     border-radius: 10px;
   }  
   
-  
+  hr {
+    width: 152%;
+  }
+
+
   /* FOOTER */
+
   footer {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 30px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    row-gap: 0px;
   }
   
-  .company-info {
-    grid-row: 1;
-  }
-  
-  .company-contact {
-    grid-row: 2;
+  .company-contact {      /* LEFT COLUMN */
+    order: 2;
     border: none;
-    width: 100vw;
+    padding-left: 55px;
   }
-
-  #location, #phone {
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 60px;
+  
+  .company-contact p, .company-contact a {
+    width: 50%;
   }
-
-  #location {
-    margin-bottom: -90px;
+  
+  .company-info {     /* RIGHT COLUMN */
+    order: 1;
   }
-
+  
+  .company-info p {
+    width: 500px;
+  }
+  
   .copyright {
-    grid-row: 3;
-    width: 100vw;
-    line-height: 50px;
+    order: 3;
   }
 
-  .copyright p {
-    width: 60%;
-    margin: 0 auto;
+  .copyright p:last-of-type{
+    width: 40%;
+    margin: 0 auto 0 auto;
   }
-
 }
