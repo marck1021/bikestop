@@ -127,7 +127,7 @@ h1 {
   font-size: 21px;
   text-align: left;
   color: white;
-  font-family: 'Roboto', 'Open Sans';
+  font-family: cursive;
   margin-top: -20px;
 }
 
@@ -516,10 +516,6 @@ footer {
   grid-column: span 2;
 }
 
-p {
- font-family: 'Open Sans', 'Roboto';
-
-
 /*  MEDIA QUERIES SECTION */
 
 @media screen and (max-width: 430px) {
@@ -558,6 +554,7 @@ p {
     text-align: center;
     margin: 0 auto;
     margin-top: -30px;
+    font-family: 'Roboto';
   }
 
   #home img {
