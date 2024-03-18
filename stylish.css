@@ -693,13 +693,17 @@ footer {
     font-family: 'Roboto';
   }
 
+  input, select, textarea {
+    font-family: 'Roboto';
+  }
+
   .contact-info {
     grid-row-start: 1;
     width: 141%;
     padding-top: 50px;
   }
 
-  .contact-info h3, .contact-info p {
+  .contact-info h3, .contact-info p, .contact-info a {
     font-family: 'Roboto';
   }
 
