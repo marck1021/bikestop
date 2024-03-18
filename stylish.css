@@ -524,6 +524,10 @@ footer {
     width: 100vw;
   }
 
+  button {
+   font-family: 'Roboto';
+  }
+ 
   main {
     width: 152%;
   }
@@ -588,6 +592,14 @@ footer {
     margin: 0 auto;
   }
 
+  .menu-card p {
+    font-family: 'Roboto';
+  }
+
+  .menu-card h3 {
+    font-family: 'Roboto';
+  }
+
 
   /* ABOUT */
   .about-grid {
@@ -607,6 +619,9 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+ .right-column p {
+    font-family: 'Roboto';
 
   #about button {
     margin: 50px auto 0 auto;
@@ -628,7 +643,6 @@ footer {
     padding-top: 0px;
     box-shadow: -2px 2px 4px 3px rgba(0, 0, 0, 0);
     background-color: #f9f9f9;
-
   }
 
   .testimonial-card:first-of-type {
@@ -638,6 +652,7 @@ footer {
   .testimonial-card p {
     width: 80%;
     margin: 20px auto;
+    font-family: 'Roboto';
   }
 
   .testimonial-card p:nth-of-type(2){
@@ -674,12 +689,17 @@ footer {
   .form {
     grid-row-start: 3;
     width: 141%;
+    font-family: 'Roboto';
   }
 
   .contact-info {
     grid-row-start: 1;
     width: 141%;
     padding-top: 50px;
+  }
+
+  .contact-info h3, .contact-info p {
+    font-family: 'Roboto';
   }
 
   .map {
@@ -717,6 +737,7 @@ footer {
   
   .company-contact p, .company-contact a {
     width: 50%;
+    font-family: 'Roboto';
   }
   
   .company-info {     /* RIGHT COLUMN */
@@ -725,12 +746,16 @@ footer {
   
   .company-info p {
     width: 500px;
+    font-family: 'Roboto';
   }
   
   .copyright {
     order: 3;
   }
-
+ 
+  .copyright p {
+    font-family: 'Roboto';
+  
   .copyright p:last-of-type{
     width: 40%;
     margin: 0 auto 0 auto;
