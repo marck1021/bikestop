@@ -695,6 +695,11 @@ footer {
 
   input, select, textarea {
     font-family: 'Roboto';
+    width: 100%;
+  }
+
+  #submit {
+    color: var(--white);
   }
 
   .contact-info {
