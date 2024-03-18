@@ -685,7 +685,7 @@ footer {
   .map {
     grid-row-start: 2;
     width: 100vw;
-    margin-top: -50px;
+    margin-top: -10px;
   }
 
   iframe {
