@@ -16,7 +16,7 @@ body {
   background-color: var(--bg-color);
   margin: 0;
   padding: 0;
-  font-family: cursive, 'Open Sans', Sans-serif;
+  font-family: 'Roboto', 'Open Sans', Sans-serif;
   color: var(--white);
 }
 
@@ -28,7 +28,7 @@ header {          /* APPLIES TO ALL HEADER ELEMENTS */
 }
 
 h2 {          /* APPLIES TO ALL H2 ELEMNTS */
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Shadows Into Light", 'Roboto';
   font-size: 50px;
   font-weight: 400;
   text-align: center;
@@ -45,7 +45,7 @@ button {          /* APPLIES TO ALL BUTTON ELEMENTS */
   font-size: 20px;
   color: var(--bg-color); /* #343a40; */
   font-weight: 600; 
-  font-family: cursive;
+  font-family: 'Roboto';
   border-color: transparent;
   cursor: pointer; 
 }
@@ -112,7 +112,7 @@ a:hover {
 }
 
 h1 { 
-  font-family: "Shadows Into Light";
+  font-family: "Shadows Into Light", 'Roboto';
   font-weight: 400;
   font-size: 80px;
   width: 600px;
@@ -127,7 +127,7 @@ h1 {
   font-size: 21px;
   text-align: left;
   color: white;
-  font-family: cursive;
+  font-family: 'Roboto';
   margin-top: -20px;
 }
 
@@ -391,7 +391,7 @@ input, select, textarea {
   margin-top: 5px;
   margin-bottom: 20px;
   font-size: 15px;
-  font-family: cursive;
+  font-family:'Roboto';
 }
 
 #submit {
@@ -491,7 +491,7 @@ footer {
 
 .company-info h3 {
   font-size: 40px;
-  font-family: "Shadows Into Light";
+  font-family: "Shadows Into Light", 'Roboto';
 }
 
 .company-info p {
