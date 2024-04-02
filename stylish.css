@@ -516,6 +516,8 @@ footer {
   grid-column: span 2;
 }
 
+
+
 /*  MEDIA QUERIES SECTION */
 
 @media screen and (max-width: 430px) {
@@ -593,13 +595,20 @@ footer {
   }
 
   .menu-card p, .menu-card h3 {
-    font-family: 'Roboto';
+    font-family: 'Roboto'; 
   }
 
   .menu-card h3 {
     margin-top: 40px;
   }
 
+  #wedges {
+    margin-block-start: -50px;
+  }
+
+  #menu button {
+    margin-top: 40px;
+  }
 
   /* ABOUT */
   .about-grid {
