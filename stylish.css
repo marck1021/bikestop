@@ -816,7 +816,7 @@ footer {
   }
 
   #home {
-    padding-bottom: 150px;
+    padding-bottom: 140px;
   }
 
   h1 { 
@@ -847,7 +847,7 @@ footer {
 
   #home img {
     margin-inline-start: 0px;
-    width: 65%;
+    width: 63%;
     object-fit: cover;
     border-radius: 50% 20% / 10% 40%;
     order: 3;
