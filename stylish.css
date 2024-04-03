@@ -947,4 +947,7 @@ footer {
     order: 3;
   }
 
+  #location, #phone, .company-info {
+    padding-left: 30px;
+  }
 }
