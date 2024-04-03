@@ -804,3 +804,109 @@ footer {
     margin: 0 auto 0 auto;
   }
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 884px) {
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: var(--bg-color);
+    padding: 10px 0px;
+    z-index: 2;
+    column-gap: 180px;
+  }
+
+  #home {
+    padding-bottom: 150px;
+  }
+
+  h1 { 
+    font-family: "Shadows Into Light", 'Roboto';
+    font-weight: 400;
+    font-size: 60px;
+    width: 600px;
+    text-align: left;
+    margin-top: -20px;
+    margin-left: 45px;
+  }
+
+  #home p {
+    width: 60%;
+  }
+
+  #hero-button-div {
+    order: 4;
+    width: 100%;
+    margin-left: -200px;
+  }
+
+  #home button {
+    margin-top: 60px;
+    margin-left: 250px;
+  }
+
+  #home img {
+    margin-inline-start: 0px;
+    width: 58%;
+    object-fit: cover;
+    border-radius: 50% 20% / 10% 40%;
+    order: 3;
+    position: absolute;
+    top: 155px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  #menu {
+    padding-bottom: 80px;
+  }
+
+  .menu-grid {
+    margin-top: 0;
+  }
+
+  #guacamole {
+    width: 100%;
+    zoom: 85%;
+    margin: 0 auto;
+  }
+
+  #double {
+    width: 100%;
+    zoom: 100%;
+  }
+  
+  #menu button {
+    margin-top: 40px;
+  }
+
+  #about {
+    padding-bottom: 10px;
+  }
+
+  #about button {
+    margin-top: 40px;
+  }
+
+  #about img {
+    width: 93%;
+    margin-top: 45px;
+  }
+
+  .right-column {
+    margin-left: 10px;
+  }
+
+  .testimonial-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0px;
+    box-shadow: -2px 2px 4px 3px rgba(0, 0, 0, 0);
+    background-color: #f9f9f9;
+  }
+}
