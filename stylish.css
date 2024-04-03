@@ -861,7 +861,11 @@ footer {
   #menu {
     padding-bottom: 80px;
   }
- 
+
+  #menu p {
+    font-size: 17px;
+  }
+
   .menu-grid {
     margin-top: 0;
   }
@@ -954,4 +958,5 @@ footer {
   .company-info {
     padding-left: 15px;
   }
+
 }
