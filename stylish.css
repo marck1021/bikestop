@@ -787,7 +787,10 @@ footer {
     margin-left: 30px;
   }
 
-
+  #social-icons {
+    padding-left: 140px;
+  }
+ 
   .copyright {
     order: 3;
   }
