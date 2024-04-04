@@ -520,7 +520,7 @@ footer {
 
 /*  MEDIA QUERIES SECTION */
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
 
   body {
     width: 100vw;
@@ -535,9 +535,22 @@ footer {
   }
 
   nav {
-    visibility: hidden;
+    display: flex;
+    width: 152%;
+    
   }
 
+  nav ul {
+    padding-left: 50px;
+  }
+
+  nav ul li {
+    margin: 0 15px;
+  }
+
+  #logo {
+    margin-left: 40px; 
+  }
 
   /* HOME */
   #home {
