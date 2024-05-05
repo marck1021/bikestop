@@ -520,6 +520,7 @@ footer {
 
 /*  MEDIA QUERIES SECTION */
 
+/* MOBILE DEVICES */ 
 @media screen and (max-width: 480px) {
 
   body {
@@ -537,7 +538,6 @@ footer {
   nav {
     display: flex;
     width: 152%;
-    
   }
 
   nav ul {
@@ -556,6 +556,8 @@ footer {
   #home {
     display: flex;
     flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 80px;
   }  
   
   h1 {
@@ -565,11 +567,12 @@ footer {
     line-height: 100px;
     text-align: center;
     order: 1;
+    margin-top: -40px;
   }
 
   #home p {
     width: 100%;
-    order: 2;
+    order: 3;
     text-align: center;
     margin: 0 auto;
     margin-top: -30px;
@@ -579,24 +582,26 @@ footer {
 
   #home img {
     margin-inline-start: 0px;
-    width: 95%;
+    width: 100%;
     object-fit: cover;
     border-radius: 50% 20% / 10% 40%;
-    order: 3;
+    order: 2;
     position: relative;
-    top: 60px;
+    top: -25px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 
   #home button {
     font-size: 26px;
+    margin: auto;
   }
 
   #hero-button-div {
     order: 4;
     width: 100%;
+    margin-top: 45px;
   }
 
 
@@ -610,6 +615,7 @@ footer {
   .menu-card {
     width: 90%;
     margin: 0 auto;
+    margin-top: -20px;
   }
 
   .menu-card p, .menu-card h3 {
@@ -815,7 +821,8 @@ footer {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 884px) {
+/* IPADS AND TABLETS */
+@media screen and (min-width: 744px) and (max-width: 884px) {
   
   nav {
     display: flex;
@@ -973,3 +980,38 @@ footer {
   }
 
 }
+
+/* LANDSCAPE 
+@media screen and (orientation: Landscape) {
+
+#home {
+  padding-bottom: 180px;
+}
+
+#home img {
+  margin-inline-start: 0px;
+  width: 63%;
+  object-fit: cover;
+  border-radius: 50% 20% / 10% 40%;
+  order: 3;
+  position: absolute;
+  top: 160px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+#home button {
+margin-top: 80px;
+margin-left: 105px;
+height: 60px;
+padding: 10px 25px;
+letter-spacing: 2px;
+}
+
+#home p {
+  width: 50%;
+}
+
+}
+
+*/
