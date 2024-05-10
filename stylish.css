@@ -835,59 +835,90 @@ footer {
     column-gap: 180px;
   }
 
-  #home {
-    padding-bottom: 140px;
+  nav ul {
+    visibility: hidden;
   }
 
-  h1 { 
-    font-family: "Shadows Into Light", 'Roboto';
-    font-weight: 400;
-    font-size: 60px;
-    width: 600px;
-    text-align: left;
-    margin-top: -20px;
-    margin-left: 45px;
+  #logo {
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 80px;
+  }  
+  
+  h1 {
+    margin-inline-start: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+    order: 1;
+    margin-top: -40px;
+    letter-spacing: 3px;
   }
 
   #home p {
-    width: 60%;
+    width: 85%;
+    order: 3;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -30px;
+    font-family: 'Roboto';
+    font-size: 28px;
+  }
+
+  #home img {
+    margin-inline-start: 0px;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 50% 20% / 10% 40%;
+    order: 2;
+    position: relative;
+    top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+
+  #home button {
+    font-size: 26px;
+    margin: auto;
   }
 
   #hero-button-div {
     order: 4;
     width: 100%;
-    margin-left: -200px;
-  }
-
-  #home button {
-    margin-top: 100px;
-    margin-left: 250px;
-    height: 50px;
-    padding: 10px 25px;
-  }
-
-  #home img {
-    margin-inline-start: 0px;
-    width: 63%;
-    object-fit: cover;
-    border-radius: 50% 20% / 10% 40%;
-    order: 3;
-    position: absolute;
-    top: 175px;
-    margin-left: auto;
-    margin-right: 10px;
+    margin-top: 45px;
   }
 
   #menu {
     padding-bottom: 80px;
   }
 
+  .menu-card h3 {
+    margin-top: 40px;
+    font-size: 25px;
+  }
+
   #menu p {
-    font-size: 17px;
+    font-size: 21px;
   }
 
   .menu-grid {
     margin-top: 0;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .menu-card:nth-of-type(3) {
+    grid-column: span 2;
+    margin-top: 40px;
   }
 
   #guacamole {
@@ -897,13 +928,14 @@ footer {
   }
 
   #double {
-    width: 120%;
+    width: 100%;
     zoom: 100%;
-    margin-left: -20px;
   }
   
   #menu button {
     margin-top: 40px;
+    font-size: 26px;
+    letter-spacing: 1px;
   }
 
   #about {
